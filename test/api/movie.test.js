@@ -54,7 +54,7 @@ describe('/api/movies tests', () => {
                     res.body.should.have.property('year');
                     res.body.should.have.property('imdb_score');
                     res.body.should.have.property('director_id');
-                    done();
+
                 });
         })
     })
